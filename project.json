@@ -3,10 +3,10 @@
   "description": "Testing dataset containing input data and desired output data by inserting each \r\nrecord of input data into each field of the web application and test that the desired output is \r\ngenerated.",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.System.Activities": "[22.4.4]",
-    "UiPath.UIAutomation.Activities": "[22.4.7]"
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.2]"
   },
   "webServices": [],
   "entitiesStores": [],
