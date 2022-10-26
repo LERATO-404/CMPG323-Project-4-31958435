@@ -29,59 +29,102 @@ then simply click the Run button
 
 ### Table of Contents
 1. [Login](#Login)
-2. [Zone](#Zone)
-3. [Category](#Category)
-4. [Device](#Device)
-5. [Delete](#Delete)
+2. [Excel](#Excel)
+3. [Zone](#Zone)
+4. [Category](#Category)
+5. [Device](#Device)
+6. [Delete](#Delete)
 
 <a name="Login"></a>      
 #### 1. Login <br>
 * The Robot will get the credential from the orchestrator and use them to log in
+Web Image | UiPath Image
+---|---
+<img src="Img/Home_Page_Connected_Office_Device_Management.png" width=200> | <img src="Img/getCredentials.png" width=200>
+
+<a name="Excel"></a>      
+#### 2. Excel <br>
+*Add the file to read data from
+UiPath Image
+<img src="Img/getExcelFile.png" width=200>
+
+* Reading zone data into a dataTable
+<img src="Img/dtZone.png" width=200>
+
+* Reading category data into a dataTable
+<img src="Img/dtCategory.png" width=200>
+
+* Reading device data into a dataTable
+<img src="Img/dtDevice.png" width=200>
 
 <a name="Zone"></a>      
-#### 2. Zones <br>
+#### 3. Zones <br>
 After logging In the Robot will:
 * Click on the zone tab <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/After_Login_Home_Page_Connected_Office_Device_Management.png" width=200> 
 
 * Click the the add icon and add the data from the Zone dataTable ZoneName and Zonedescription column  and click Create button <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Create_Zone_Connected_Office_Device_Management.png" width=200> | <img src="Img/addZone.png" width=200>
+
 
 * Click the view icon to view the zone added <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Zone_Details.png" width=200> | <img src="Img/ClickView.png" width=200>
 
 * Click the the edit button to test edti Zone description and click Save button <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Edit_Zone_Connected_Office_Device_Management.png" width=200> | <img src="Img/EditZone.png" width=200>
 
 <a name="Category"></a>      
-#### 3. Category <br>
+#### 4. Category <br>
 Then after all the rows in the zone dataTable have been added the Category tab will be clicked and the Robot will:
 * Click the the add icon and add the data from the Category dataTable CategoryName and Categorydescription column and click Create button <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Create_Category_Connected_Office_Device_Management.png" width=200> | <img src="Img/addCategory.png" width=200>
 
 * Click the view icon to view the category added <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Category_Details_Connected_Office_Device_Management.png" width=200> | <img src="Img/ClickView.png" width=200>
 
 * Click the the edit button to test edti category description and click Save button <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Edit_Category_Connected_Office_Device_Management.png" width=200> | <img src="Img/EditCategory.png" width=200>
+
 
 
 <a name="Device"></a>      
-#### 4. Device <br>
+#### 5. Device <br>
 Then after all the rows in the category dataTable have been added the Device tab will be clicked and the Robot will:
 * Click the the add icon and add the data from the Device dataTable and click Create button <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Create_Device_Connected_Office_Device_Management.png" width=200> | <img src="Img/addDevice..png" width=200>
 
 * Click the view icon to view the device added <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+--- | ---
+<img src="Img/Device_Details_Connected_Office_Device_Management.png" width=200> | <img src="Img/ClickView.png" width=200>
+
 
 * Click the the edit button to test edti device status and check/uncheck the box for isActive and click Save button <br>
   * For the device status a String array was used to store {"In Operation", "Broken", "Maintenance", "Stopped"}, so to test the device status
   an element in the array is returned randomly to the status textbox. And for the isActive the box is checked/unchecked. <br>
-<img src="Img/{name}.png" width=200>
+Web Image | UiPath Image
+---|---
+<img src="Img/Edit_Device_Connected_Office_Device_Management.png" width=200> | <img src="Img/EditDevice.png" width=200>
+
 
 <a name="Delete"></a>      
-#### 5. Delete <br>
+#### 6. Delete <br>
 Then after all the rows in the device dataTable have been added the Robot will:
 
 * Delete all the devices <br>
