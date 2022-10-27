@@ -12,13 +12,15 @@ to perform User acceptance testing (UAT) using an  UiPath Robot.
 3. Store the data from the file in the dataTable - three sheets (Zone, Catagory, and Device) each in its on dataTable 
 
 ### Tasks performed by the robot in the web application
-1. Log In using credential stored in the orchestrator assest
-2. Click on the Zone tab 
-3. Peform CRUD operation on the Zones tab
-4. Click on the Category tab
-5. Perform CRUD operations on the Category tab
-6. Click on the Device tab
-7. Perform CRUD operations on the Device tab
+1. Open browser (Microsoft Edge) and navigate to the web application url
+2. Click on Login tab
+3. Log In using credential stored in the orchestrator assest
+4. Click on the Zone tab 
+5. Peform CRUD operation on the Zones tab
+6. Click on the Category tab
+7. Perform CRUD operations on the Category tab
+8. Click on the Device tab
+9. Perform CRUD operations on the Device tab
 
 ### Purpose
 To ensure that the input entered int the web application generate the expected output
@@ -167,3 +169,7 @@ UiPathImage |
 :--------------------|
 <img src="Img/Delete_Category_Connected_Office_Device_Management.png" width=200> |
 
+#### Help and Support<br>
+---
+ * marijkec
+ * JacquiM
